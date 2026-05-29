@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
+    <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.css" />
   </head>
   <body>
-    <!-- Correct CDN URL -->
+    <!-- Load correct Netlify CMS script -->
     <script src="https://unpkg.com/netlify-cms-app@^2/dist/netlify-cms.js"></script>
 
     <script>
-      // Initialize Netlify CMS with config.yml
       window.CMS && CMS.init({
         config: 'config.yml'
       });

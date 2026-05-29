@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links a:hover {
+  color: #007bff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa; /* light gray as a base page color */
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:focus {
+  outline: none;
+}
+
+a:focus,
+button:focus,
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+body,
+body *:not(input):not(textarea):not(select) {
+  caret-color: transparent;
+}
+
+.nav-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #fff; /* default link color */
+  font-weight: 500;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* bright yellow hover color for visibility */
+  transform: scale(1.05); /* slight zoom effect */
+}
+
+.nav-links a {
+  cursor: pointer;
 }

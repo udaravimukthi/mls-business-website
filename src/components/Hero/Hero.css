@@ -1,0 +1,32 @@
+#vision {
+  scroll-margin-top: 140px;
+}
+
+.hero-section {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}

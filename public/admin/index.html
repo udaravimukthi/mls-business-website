@@ -5,12 +5,11 @@
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- Load Netlify CMS first -->
-    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"></script>
+    <!-- Correct CDN URL -->
+    <script src="https://unpkg.com/netlify-cms-app@^2/dist/netlify-cms.js"></script>
 
-    <!-- Then initialize CMS -->
     <script>
-      // Initialize Netlify CMS with config.yml in the same folder
+      // Initialize Netlify CMS with config.yml
       window.CMS && CMS.init({
         config: 'config.yml'
       });

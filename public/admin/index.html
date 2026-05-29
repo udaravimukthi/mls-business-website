@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Content Manager</title>
-    <!-- Optional CSS for CMS UI -->
-    <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.css" />
   </head>
   <body>
-    <!-- Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms-app/dist/netlify-cms.js"></script>
+    <!-- Load Netlify CMS first -->
+    <script src="https://unpkg.com/netlify-cms-app@^2.0.0/dist/netlify-cms.js"></script>
+
+    <!-- Then initialize CMS -->
     <script>
-      // Initialize Netlify CMS with config.yml in same folder
-      CMS.init({
+      // Initialize Netlify CMS with config.yml in the same folder
+      window.CMS && CMS.init({
         config: 'config.yml'
       });
     </script>

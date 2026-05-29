@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="site-header">
       <div className="container">
-        <h1 className="logo">Business Name</h1>
+        <h1 className="logo">MLS Creative Hub</h1>
         <nav className="nav-links">
   <a href="#vision">Our Vision</a>
   <a href="#success-stories">Success Stories</a>
